@@ -1,0 +1,164 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(240, 237, 237);
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/11/superheroes-marvel-dc.jpg?tf=3840x);
+    background-size: cover;
+    background-position: center;
+}   
+
+.logo{
+    font-size: 25px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 30px;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+    
+}
+nav{
+    font-size: 15px;
+    margin: 10px;
+    padding-right: 50px;
+}
+nav a{
+    color: rgb(255, 255, 255);;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px black;
+}
+nav a:hover{
+    color: rgb(211, 63, 100);
+}
+h1{font-size: 40px; font-weight: bold;}
+h3{font-size: 20px; font-weight: bold;}
+p{font-size: 20px;}
+@media (max-width:720px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo{
+        padding-left: 0;
+    }
+
+
+
+    nav{
+        padding-bottom: 10px;
+        padding-right: 0px;;
+    }
+    #series{
+        background-color: rgb(43, 42, 42);
+        color: white;
+        text-align: center;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    #peliculas{
+        background-color: rgb(43, 42, 42);
+        color: white;
+        text-align: center;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+}
+#hero{
+    text-align: center;
+    padding: 100px;
+    margin: 30px;
+    background-size: cover;
+    background-color: rgb(43, 42, 42);
+    background-position: center;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+button{
+background-color: rgb(211, 63, 100);
+font-size: 20px;
+font-weight: bold;
+border-radius: 10px;
+padding: 5px;
+box-shadow: 1px 1px 5px rgb(20, 18, 18);
+color: black;
+}
+button:hover{
+    background-color: rgb(192, 57, 91)
+}
+
+.todo{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/362/398/non_2x/blue-dynamic-shape-abstract-background-suitable-for-web-and-mobile-app-backgrounds-eps-10-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.series{
+    height: 400px;
+    transition: 300ms;
+    display: flex;
+    background-color: rgb(211, 63, 100);
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    min-height: 20px;
+    
+}
+
+#series{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    margin: 20px;
+    min-height: 20px;
+    flex-wrap: wrap;
+    
+}
+#peliculas{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.articulo1{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    min-height: 20px;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.articulo2{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    min-height: 20px;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
